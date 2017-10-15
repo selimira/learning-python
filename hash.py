@@ -3,7 +3,7 @@ def get_hash (data):
     hash_object = hashlib.md5(data.encode())
     print (hash_object.hexdigest())
 
-mystring = 'Selimira' 
-tomato = 'selimira'
-get_hash(mystring)
+name = 'Selimira' 
+tomato = 'Hello'
+get_hash(name)
 get_hash(tomato)
